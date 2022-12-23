@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+section .arrow {
+    transform: rotate(180deg);
+}
+
+section .arrow:active {
+    transform: rotate(40deg);
+}
+
+section .arrow::after {
+    transform: rotate(90deg);
+}
+
+article {
+    display: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    all: unset;
+}
+
+.photos {
+    background: url(./images/bg-pattern-desktop.svg);
+    display: flex;
+    flex-direction: row-reverse;
+}
+
