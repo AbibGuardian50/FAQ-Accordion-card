@@ -18,65 +18,73 @@
 <body>
   <script src="script.js"></script>
 
-  <div class="photos">
-    <img src="./images/illustration-woman-online-desktop.svg" alt="illustration-woman-online-desktop">
-    <img src="./images/illustration-box-desktop.svg" alt="illustration-box-desktop">
-    img
+  <div class="container">
+    <div class="photos">
+      <img src="./images/illustration-woman-online-desktop.svg" alt="illustration-woman-online-desktop">
+      <!-- <img src="./images/illustration-box-desktop.svg" alt="illustration-box-desktop"> -->
+    </div>
+    
+  
+    <section> 
+        <h1>FAQ</h1>
+      <div class="team-members">
+        <button onclick="showTeam()">How many team members can I invite? <img class="arrow" src="./images/icon-arrow-down.svg" alt=""></button>
+        <article id="team">
+          <p>You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p> 
+        </article>
+      </div>
+      
+      
+     <div class="storage-size">
+      <button onclick="showSize()"> What is the maximum file upload size? <img class="arrow" src="./images/icon-arrow-down.svg" alt=""> </button>
+      <article id="size">
+        <p>No more than 2GB. All files in your account must fit your allotted storage space.</p> 
+      </article>
+     </div> 
+      
+      
+    
+      <div class="reset-password">
+        <button onclick="showReset()">How do I reset my password? <img class="arrow" src="./images/icon-arrow-down.svg" alt=""> </button>
+        <article id="reset">
+          <p>Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.</p> 
+        </article>
+      </div>  
+      
+      
+      <div class="cancel-subs">
+        <button onclick="showCancel()">Can I cancel my subscription? <img class="arrow" src="./images/icon-arrow-down.svg" alt=""> </button>
+      <article id="cancel">
+        <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+      </article>
+      </div>
+      
+  
+      <div class="additional-support">
+        <button onclick="showSupport()">Do you provide additional support? <img class="arrow" src="./images/icon-arrow-down.svg" alt=""> </button>
+      <article id="support">
+        <p> Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+      </article>
+      </div>
+      
+    
+      
+    </section>
+    
   </div>
-  
 
-  <section> 
-      <h1>FAQ</h1>
-    <div>
-      <button onclick="showTeam()">How many team members can I invite? <img class="arrow" src="./images/icon-arrow-down.svg" alt=""></button>
-      <article id="team">
-        <p>You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p> 
-      </article>
-    </div>  
-    
-    
-   <div>
-    <button onclick="showSize()">What is the maximum file upload size?</button>
-    <article id="size">
-      <p>No more than 2GB. All files in your account must fit your allotted storage space.</p> 
-    </article>
-   </div> 
-    
-    
-  
-    <div>
-      <button onclick="showReset()">How do I reset my password?</button>
-      <article id="reset">
-        <p>Click “Forgot password” from the login page or “Change password” from your profile page.
-        A reset link will be emailed to you.</p> 
-      </article>
-    </div>  
-    
-    
-    <div>
-      <button onclick="showCancel()">Can I cancel my subscription?</button>
-    <article id="cancel">
-      <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
-    </article>
-    </div>
-    
-
-    <div>
-      <button onclick="showSupport()">Do you provide additional support?</button>
-    <article id="support">
-      <p> Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
-    </article>
-    </div>
-    
-  
+  <div>
     <footer>
-      <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="https://github.com/AbibGuardian50">Muhammad Abieb Basnuril</a>.
-    </footer>
-  </section>
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="https://github.com/AbibGuardian50">Muhammad Abieb Basnuril</a>.
+      </footer>
+  </div>
 
   
-  </div>
+
+  
+  
 </body>
 </html>

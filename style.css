@@ -3,18 +3,46 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+}
+
+.container {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    gap: 1rem;
+}
+
+h1 {
+    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+
+section {
+    width: 30rem;
+    padding-right: 4rem;
 }
 
 section .arrow {
-    transform: rotate(180deg);
+    transition: 350ms all;
 }
 
 section .arrow:active {
-    transform: rotate(40deg);
+    transform: rotate(180deg);
 }
 
-section .arrow::after {
-    transform: rotate(90deg);
+section .team-members, section .storage-size, section .reset-password, section .cancel-subs, section .additional-support {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+
+section .team-members {
+   
 }
 
 article {
@@ -25,6 +53,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
 }
 
 button {
