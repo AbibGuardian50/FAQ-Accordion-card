@@ -39,8 +39,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here]
-- Live Site URL: [https://github.com/AbibGuardian50/FAQ-Accordion-card]
+- Solution URL: [https://github.com/AbibGuardian50/FAQ-Accordion-card]
+- Live Site URL: [https://abibguardian50.github.io/FAQ-Accordion-card/] 
 
 ## My process
 
