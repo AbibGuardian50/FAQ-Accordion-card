@@ -6,20 +6,69 @@
     font-size: 12px;
 }
 
+article {
+    display: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
+
+button {
+    all: unset;
+    padding-bottom: 0.5rem;
+    color: hsl(237, 12%, 33%);
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 .container {
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    gap: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    gap: 2rem;
+}
+
+.container .photos .box {
+    position: relative;
+    top: 7rem;
+    right: 6rem;
+    width: 50%;
 }
 
 h1 {
     padding-bottom: 1rem;
     font-size: 3rem;
+    font-weight: 700;
+}
+
+p {
+    line-height: 1.6;
+    color: hsl(240, 6%, 50%);
+    font-weight: 400;
+}
+
+.photos {
+    background: url(./images/bg-pattern-desktop.svg), url(./images/illustration-woman-online-desktop.svg);
+    background-position: -4rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25rem;
+    padding-bottom: 7rem;
+
 }
 
 section {
@@ -35,36 +84,54 @@ section .arrow:active {
     transform: rotate(180deg);
 }
 
-section .team-members, section .storage-size, section .reset-password, section .cancel-subs, section .additional-support {
+section .team-members,
+section .storage-size,
+section .reset-password,
+section .cancel-subs,
+section .additional-support {
     padding-bottom: 1rem;
     padding-top: 1rem;
     border-bottom: 1px solid hsl(240, 5%, 91%);
 }
 
-section .team-members {
-   
-}
+@media (max-width: 480px) {
 
-article {
-    display: none;
-}
+    body {
+        overflow-x: hidden;
+    }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    min-height: 100vh;
-    background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
-}
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0rem;
+        text-align: center;
+        margin-top: 5rem;
+        gap: 0rem;
+        
+    }
 
-button {
-    all: unset;
-}
+    .attribution,a {
+        font-size: 9px;
+    }
 
-.photos {
-    background: url(./images/bg-pattern-desktop.svg);
-    display: flex;
-    flex-direction: row-reverse;
-}
+    .photos {
+        background-position: 0rem;
+        padding-bottom: 0rem;
+        background-size: 100%;
+        background: url(./images/bg-pattern-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
 
+    section {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .container .photos .box {
+        top: -5.5rem;
+        right: 0rem;
+        width: 72%;
+        bottom: 4rem;
+    }
+}
