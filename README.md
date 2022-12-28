@@ -68,4 +68,4 @@ I want to be able to using JavaScript more fluent and efficient while writing th
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/AbibGuardian50)
+- Frontend Mentor - [@AbibGuardian50](https://www.frontendmentor.io/profile/AbibGuardian50)
