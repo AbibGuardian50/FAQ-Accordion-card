@@ -7,10 +7,8 @@ function showTeam() {
     team.style.display = "block";
     document.getElementById("showTeam").style.color = "black";
   }
-
   
 }
-
 
 function showSize() {
     var size = document.getElementById("size");
