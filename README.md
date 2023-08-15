@@ -22,7 +22,7 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 Users should be able to:
 
 - View the optimal layout for the component depending on their device's screen size
-- Hide/Show the the FAQ
+- Hide/Show the the FAQ (Frequently Asked Questions)
 
 ### Screenshot
 
